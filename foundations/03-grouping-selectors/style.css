@@ -1,0 +1,14 @@
+.ett
+{
+    background-color: black; color: white;
+}
+
+.tva
+{
+    background-color: yellow;
+}
+
+.ett.tva
+{ 
+    font-family: helvetica, 'Times New Roman', sans-serif; font-size: 28px;
+}
