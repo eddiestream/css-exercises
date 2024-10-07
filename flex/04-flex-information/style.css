@@ -1,10 +1,6 @@
-/* gap 52px between text */
 body {
   font-family: 'Courier New', Courier, monospace;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
+text-align: center;}
 
 img {
   width: 100px;
@@ -14,23 +10,14 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
-div{
-  display: flex; 
-  flex-flow: row;
-justify-content: center;
-padding: 0px;
+.container{display: flex; justify-content: center; gap: 52px;}
 
-}
-
-
-
-section{display: flex; flex-flow: column; max-width: 200px; align-items: center;}
-
-
-
+section{max-width: 200px;}
 
 
 /* do not edit this footer */
