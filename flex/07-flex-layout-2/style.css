@@ -12,14 +12,16 @@ body {
   font-size: 32px;
   font-weight:900;
   display: flex; flex-flow: column; justify-content: center;
+  padding-left: 20px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  display:flex; justify-self: end;
-  flex:1 0 auto;
+  display:flex; justify-content: center; align-items: center;
+  flex-shrink:0;
+  
 }
 
 .sidebar {
@@ -37,16 +39,16 @@ a{font-size: 24px;}
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 15px;
-  min-width:300px;
-  min-height: 150px;
-  margin: 10px;
+  max-width:300px;
+  margin: 15px;
+  flex: 1 0 auto;
   
-  
-
-
 
 }
 
-.text{display: flex; flex-flow: row wrap;}
+.text{display: flex; flex-flow: row wrap; margin: 35px;}
 
 .content{display: flex; flex: 1; }
+ul{display: flex; gap: 15px; flex-flow: column; padding-left: 20px;}
+li{list-style-type: none; }
+a{text-decoration: none; color: white;}
